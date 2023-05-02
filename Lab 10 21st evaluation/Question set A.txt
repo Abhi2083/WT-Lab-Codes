@@ -1,0 +1,9 @@
+write a java program to remove "good night" from input string "bye bye good night see you".
+
+
+define a user defined exception for the following :
+A class student with roll no and marks as data members with method getdata() and putdata() write an exception if marks less than 20 and provide for handling for exception 
+
+
+write a prog in java to create 2d array of 3*3. sort the right diagonal elements in decending order . replace the left diagonal element with the smallest element of the 2d array.
+

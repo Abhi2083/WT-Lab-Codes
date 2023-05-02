@@ -1,0 +1,133 @@
+<html>
+  <head>
+    <title>Family Profile</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .profile-card1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 500px;
+        background-color: #00ABE4;
+        border-radius: 35px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+        padding: 20px;
+        flex-direction: column;
+        border: 3px solid #333;
+        transition: all 0.3s ease-in-out;
+      }
+      .profile-card2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 500px;
+        background-color: #00ABE4;
+        border-radius: 25px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+        padding: 20px;
+        flex-direction: column;
+        border: 3px solid #333;
+        transition: all 0.3s ease-in-out;
+      }
+      .profile-card3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 500px;
+        background-color: #00ABE4;
+        border-radius: 25px;
+        box-shadow: 0px 0px 10px rgba(3, 3, 3, 0.25);
+        padding: 20px;
+        flex-direction: column;
+        border: 3px solid #333;
+        transition: all 0.3s ease-in-out;
+      }
+      .profile-card1:hover {
+        transform: translateY(-10px);
+        box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.25);
+      }
+      .profile-card2:hover {
+        transform: translateY(-10px);
+        box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.25);
+      }
+      .profile-card3:hover {
+        transform: translateY(-10px);
+        box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.25);
+      }
+      h1 {
+        margin-bottom: 20px;
+        color: rgb(0, 0, 0);
+      }
+      h1:hover {
+        transform: translateY(-10px);
+        box-shadow: 0px 20px 30px #203354;
+      }
+      p {
+        color: #333;
+        margin-bottom: 10px;
+        font-size: 16px;
+      }
+      img {
+        height: 100px;
+        width: 100px;
+        border-radius: 50px;
+        margin-bottom: 20px;
+        transition: all 0.3s ease-in-out;
+      }
+      img:hover {
+        height: 150px;
+        width: 150px;
+      }
+      @media (max-width: 700px) {
+        .container {
+          grid-template-columns: repeat(1, 1fr);
+        }
+      }
+    </style>
+  </head>
+  <body bgcolor="#E9F1FA">
+    <div class="container">
+        <div class="profile-card1">
+            <img src="me.jpg" alt="Me">
+            <h1>Myself</h1>
+            <b><p>Name: Abhishek</p>
+            <p>Age: 18</p>
+            <p>Profession: Student</p>
+            <p>Education: B.Tech</p>
+            <p>Hobbies: Programming, Gaming, Reading</p>
+            <p>Intrest: Web Development, AI/ML </p>
+            <p></p>
+          </b>
+          </div>
+      <div class="profile-card2">
+        <img src="father.jpeg" alt="Father">
+        <h1>Father</h1>
+        <b><p>Name: Ajay Tiwari</p>
+        <p>Age: 48</p>
+        <p>Profession: Businessman</p>
+        <p>Education: Graduate + LLB</p>
+        <p>Hobbies: Traveling, Gardening</p>
+     </b>
+      </div>
+      <div class="profile-card3">
+        <img src="mother.jpeg" alt="Mother">
+        <h1>Mother</h1>
+        <b><p>Name: Sangita Tiwari</p>
+        <p>Age: 45</p>
+        <p>Profession: Housewife</p>
+        <p>Education: Graduate</p>
+        <p>Hobbies: Cooking, Singing</p></b>
+      </div>
+    </div>
+  </body>
+</html>
